@@ -6,7 +6,7 @@ import email from "../assets/social/email.png";
 const NavBar = () => {
   return (
     <div>
-        <nav className="navbar bg-dark navbar-expand-lg border-bottom border-body" data-bs-theme="dark">
+        <nav className="navbar fixed-top bg-dark navbar-expand-lg border-bottom border-body" data-bs-theme="dark">
             <div className="container-fluid">
                 <a className="navbar-brand" href="#"><img src={logo}/></a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,7 +33,7 @@ const NavBar = () => {
                         <a href="https://www.facebook.com/sunflower.agencia" target="_blank" rel="noopener noreferrer"><img src={facebook}/></a>
                         <a href="https://www.instagram.com/sunflower_agencia/" target="_blank" rel="noopener noreferrer"><img src={instagram}/></a>
                         <a href="https://wa.me/message/TPKQBG3WOOUFP1" target="_blank" rel="noopener noreferrer"><img src={whatsapp}/></a>
-                        <a href="emailto: agenciadigital.sunflower@gmail.com"><img src={email}/></a>
+                        <a href="mailto: agenciadigital.sunflower@gmail.com"><img src={email}/></a>
                     </div>
                 </div>
 

@@ -10,11 +10,11 @@
 
 /*---- ESTILO NAVBAR Y ELEMENTOS ----*/
 .navbar-brand img{
-  width: 180px;
-  margin-right: 33rem;
+  width: 11rem;
 }
 
 .nav-link{
+  font-size: 0.8rem;
   color: #ffff;
 }
 
@@ -23,7 +23,132 @@
 }
 
 .social img{
-  padding: 7px;
-  width: 42px;
+  padding: 0.4rem;
+  width: 2.6rem;
 }
 
+
+/*---- COVER ----*/
+
+.cover{
+  margin-top: 4.8rem;
+  display: flex;
+  align-items: center;
+}
+.cover img{
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.text-box{
+  position: absolute;
+  max-width: 50rem;
+}
+
+.cover h2{
+  text-align: start;
+  font-size: 4rem;
+  margin-left: 5rem;
+  color: #ffff;
+}
+
+.cover-text{
+  color: #FFD455;
+  font-size: 4.5rem;
+  font-weight: 700;
+  font-family: "League Spartan";
+}
+
+.btn{
+  margin-right: 27rem;
+}
+
+/*---- CARACTERISTICAS ----*/
+
+.contenedor{
+  height: 60vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+.box{
+  max-width: 25rem;
+  gap: 2rem;
+}
+
+.box img{
+  margin-bottom: 1.5rem;
+}
+
+.box h2{
+  font-family: "League Spartan";
+  font-size: 2rem;
+  font-weight: 600;
+  color: #e36e30;
+}
+
+.box p{
+  font-size: 1.3rem;
+}
+
+
+/* ----DISPOSITIVOS IGUALES O MENORES A 1200PX*/
+
+@media screen and (max-width: 1200px){
+
+  .contenedor{
+    grid-template-columns: 1fr;
+    margin-top: 3rem;
+    margin-left: 0;
+    gap: 5rem;
+  }
+}
+
+/* ----DISPOSITIVOS IGUALES O MENORES A 600px---- */
+
+@media screen and (max-width: 800px) {
+  .cover{
+    justify-content: center;
+  }
+  .cover img{
+    width: 100%;
+    height: auto;
+  }
+  .text-box{
+    max-width: 30rem;
+  }
+  .cover h2{
+    text-align: center;
+    font-size: 3rem;
+    margin-left: 0;
+    color: #ffff;
+  }
+  .cover-text{
+    font-size: 3.5rem;
+  }
+  .btn{
+    margin-top: 1rem;
+    margin-right: 0;
+  }
+
+  .box p{
+    font-size: 1.2rem;      
+  }
+}
+
+
+
+/* ----DISPOSITIVOS IGUALES O MENORES A 600px---- */
+
+@media screen and (max-width: 600px) {
+  .cover h2{
+    font-size: 2rem;
+  }
+
+  .cover-text{
+    font-size: 2.5rem;
+  }
+}
