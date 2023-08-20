@@ -1,14 +1,18 @@
 import './App.css';
 import Caracteristicas from './componentes/Caracteristicas';
-import Cover from './componentes/Cover';
+import Inicio from './componentes/Inicio';
 import NavBar from './componentes/NavBar';
+import Portfolio from './componentes/Portfolio';
+import Servicios from './componentes/Servicios';
 
 function App() {
   return (
     <div className="App">
       <NavBar />
-      <Cover />
+      <Inicio />
       <Caracteristicas />
+      <Servicios />
+      <Portfolio />
     </div>
   );
 }
