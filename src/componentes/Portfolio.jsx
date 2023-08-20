@@ -1,4 +1,4 @@
-import brujasustentable from "../assets/box-portfolio/logo-brujasustentable.png";
+import brujasustentable from "../assets/portfolio/logo-brujasustentable.png";
 import hidrosir from "../assets/portfolio/logo-hidrosir.png";
 import muebles44 from "../assets/portfolio/logo-muebles44.png";
 import guardiola from  "../assets/portfolio/logo-guardiola.png";
