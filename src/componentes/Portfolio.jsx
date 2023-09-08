@@ -5,7 +5,7 @@ import guardiola from  "../assets/portfolio/logo-guardiola.png";
 
 const Portfolio = () => {
   return (
-    <div className="trabajos">
+    <div className="trabajos" id="portfolio" name="portafolio">
         <div className="portfolio-titulo">
             <h2>Te Compartimos Algunos De Nuestros Trabajos Y Sus Resultados</h2>
             <p>Confiamos en la comunicacion en el proceso creativo y participamos en tu proyecto de manera activa y responsable.</p>

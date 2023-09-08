@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import logo from "../assets/logo_navbar.png";
 import facebook from "../assets/social/facebook.png";
 import instagram from "../assets/social/instagram.png";
@@ -8,7 +9,7 @@ const NavBar = () => {
     <div>
         <nav className="navbar fixed-top bg-dark navbar-expand-lg border-bottom border-body" data-bs-theme="dark">
             <div className="container-fluid">
-                <a className="navbar-brand" href="#"><img src={logo}/></a>
+                <a className="navbar-brand" href="/#inicio"><img src={logo}/></a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -16,16 +17,16 @@ const NavBar = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Inicio</a>
+                            <Link className="nav-link" to="/">Inicio</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Servicios</a>
+                            <Link className="nav-link" to="/servicios">Servicios</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Portafolio</a>
+                            <a className="nav-link" href="/#portfolio">Portafolio</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Contacto</a>
+                            <a className="nav-link" href="/#contacto">Contacto</a>
                         </li>
                     </ul>
 

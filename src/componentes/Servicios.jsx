@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom';
 const Servicios = () => {
   return (
     <div className="servicios">
@@ -27,14 +27,17 @@ const Servicios = () => {
         </div>
 
         <div className="card">
-          <img src="https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="card-img-top" alt="..."/>
+          <img src="https://images.pexels.com/photos/1542252/pexels-photo-1542252.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="card-img-top" alt="..."/>
           <div className="card-body">
           <h5 class="card-title">Gestion De Redes</h5>
           <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
         </div>
       </div>
-      <a href="#" type="buttom" className="servicios-btn">VER MAS</a>
+      <Link to="/servicios">
+        <button className="servicios-btn">VER MAS</button>
+      </Link>
+      
     </div>
   )
 }
