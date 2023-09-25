@@ -7,7 +7,7 @@ const PagServicios = () => {
     <div className='pag-servicios'>
         <NavBar />
         <section>
-          <h2>SERVICIOS</h2>
+          <h1>SERVICIOS</h1>
         </section>
         <div className='tarjetas-servicios'>
          <div className="card">

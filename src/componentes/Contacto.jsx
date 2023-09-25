@@ -5,7 +5,7 @@ const Contacto = () => {
                 <h3>¡Contanos sobre tu proyecto!</h3>
                 <p>¿Como te gustaria que trabajemos juntos?<br /></p>
             </aside>
-            <form>
+            <form action="https://formsubmit.co/agenciadigital.sunflower@gmail.com" method="POST">
                 <div className="inputs">
                     <div>
                         <label htmlFor="name">Nombre:</label><br />
@@ -13,7 +13,7 @@ const Contacto = () => {
                     </div>
                     <div>
                         <label htmlFor="phone">Teléfono:</label><br />
-                        <input type="number" id="phone" name="phone" placeholder="Apellido" />
+                        <input type="number" id="phone" name="phone" placeholder="Teléfono" />
                     </div>
                 </div>
                 

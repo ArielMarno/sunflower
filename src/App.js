@@ -1,17 +1,26 @@
 import './App.css';
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Home from './paginas/Home';
 import PagServicios from './paginas/PagServicios';
-import Portfolio from './componentes/Portfolio';
+import BrujaSustentable from './paginas/BrujaSustentable';
+import Hidrosir from './paginas/Hidrosir';
+import ScrollToTop from './componentes/ScrollToTop';
+import Muebles44 from './paginas/Muebles44';
+import ExpGabrielGuardiola from './paginas/ExpGabrielGuardiola';
 
 function App() {
   return (
-    <BrowserRouter className="App">
+    <Router className="App">
+      <ScrollToTop />
       <Routes>
-       <Route path='/' element={<Home />}/>
-       <Route path='servicios' element={<PagServicios />} />
+        <Route path='/' element={<Home />}/>
+        <Route path='Servicios' element={<PagServicios />} />
+        <Route path='BrujaSustentable' element={<BrujaSustentable />} />
+        <Route path='Hidrosir' element={<Hidrosir />} />
+        <Route path='Muebles44' element={<Muebles44 />} />
+        <Route path='ExpGabrielGuardiola' element={<ExpGabrielGuardiola />} />
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
 
