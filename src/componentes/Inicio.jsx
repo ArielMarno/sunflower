@@ -4,10 +4,8 @@ const Inicio = () => {
     <div>
         <div className='inicio' id="inicio">
             <div className="texto-inicio">
-                    <h1>Somos <span className="inicio-marca">SunFlower</span>, <br />
-                    la mejor opcion
-                    para impulsar tu negocio.</h1>
-                    <a type="button" href="#">ENVIANOS TU MENSAJE</a>
+                    <h1>Creatividad, Innovación y Resultados En El Mundo Digital</h1>
+                    <p>Nos adaptamos a tus necesidades y te ofrecemos soluciones personalizadas.</p>
             </div>
         </div>
     </div>

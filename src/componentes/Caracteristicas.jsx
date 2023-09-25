@@ -13,7 +13,7 @@ const Caracteristicas = () => {
         <div className='box'>
             <img src={responsabilidad} alt="icono" />
             <h2 className='titulo'>Responsabilidad</h2>
-            <p className='descripcion'>Comprometidos con la gestion eficiente del tiempo y los recursos priorizando siempre tus objetivos.</p>
+            <p className='descripcion'>Comprometidos con la gestion eficiente del tiempo y los recursos, priorizando siempre tus objetivos.</p>
         </div>
         <div className='box'>
             <img src={creatividad} alt="icono" />

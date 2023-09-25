@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import brujasustentable from "../assets/portfolio/logo-brujasustentable.png";
 import hidrosir from "../assets/portfolio/logo-hidrosir.png";
 import muebles44 from "../assets/portfolio/logo-muebles44.png";
@@ -8,32 +9,32 @@ const Portfolio = () => {
     <div className="trabajos" id="portfolio" name="portafolio">
         <div className="portfolio-titulo">
             <h2>Te Compartimos Algunos De Nuestros Trabajos Y Sus Resultados</h2>
-            <p>Confiamos en la comunicacion en el proceso creativo y participamos en tu proyecto de manera activa y responsable.</p>
+            <p>Sabemos la importancia de la comunicacion en el proceso creativo y participamos siempre de manera activa y responsable en tu proyecto.</p>
         </div>
         <div className="enlaces-portfolio">
             <div className="box-portafolio">
                 <img src={brujasustentable} alt="" />
                 <div className="capa">
-                   <a href="">VER PORTFOLIO</a>  
+                   <Link to="BrujaSustentable">VER PORTFOLIO</Link>  
                 </div>
             </div>
             <div className="box-portafolio">
                 <img src={hidrosir} alt="" />
                 <div className="capa">
-                    <a href="">VER PORTFOLIO</a>
+                    <Link to="Hidrosir">VER PORTFOLIO</Link>
                 </div>
                 
             </div>
             <div className="box-portafolio">
                 <img src={muebles44} alt="" />
                 <div className="capa">
-                    <a href="">VER PORTFOLIO</a>
+                    <Link to="Muebles44">VER PORTFOLIO</Link>
                 </div>
             </div>
             <div className="box-portafolio">
                 <img src={guardiola} alt="" />
                 <div className="capa">
-                    <a href="">VER PORTFOLIO</a>
+                    <Link to="ExpGabrielGuardiola">VER PORTFOLIO</Link>
                 </div>
                 
             </div>

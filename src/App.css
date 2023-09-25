@@ -8,7 +8,11 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-/*---- ESTILO NAVBAR Y ELEMENTOS ----*/
+
+
+
+
+/* NAVBAR-LAYOUT*/
 
 .navbar-brand img{
   width: 8rem;
@@ -33,55 +37,41 @@
 }
 
 
-/*---- COVER ----*/
+
+
+/* INICIO-HOME*/
 
 .inicio{
-  background-image: url("https://r4.wallpaperflare.com/wallpaper/239/42/323/obelisk-street-cityscape-traffic-wallpaper-f980083d217a7dfb4617c80fb07166fd.jpg");
+  background-image: url("https://th.bing.com/th/id/R.573dccd2370c5275325e282773ab415d?rik=Z3oPRrjPH%2f%2b9TQ&pid=ImgRaw&r=0");
   background-size: cover;
   background-position: center;
   height: 100vh;
   display: flex;
   align-items: center;
+  justify-content: center;
   overflow: hidden;
   margin-bottom: 5rem;
 }
 
-.texto-inicio{
-  max-width: 50rem;
-}
-
 .inicio h1{
-  text-align: start;
-  font-size: 3rem;
-  margin-left: 5rem;
-  color: #ffff;
-}
-
-.inicio-marca{
-  color: #ffd455;
-  font-size: 3.6rem;
-  font-weight: 600;
+  letter-spacing: 2px;
   font-family: "League Spartan";
+  text-align: center;
+  font-size: 3.9rem;
+  font-weight: 900;
+  color: #f8f8f8;
+  margin-bottom: 1rem;
 }
 
-.texto-inicio a{
-  width: 15rem;
-  font-size: 1rem;
-  font-weight: 800;
-  padding: 0.5rem;
-  text-decoration: none;
-  border: 2px solid #FFD455;
-  color: #FFD455;
-  margin-right: 24.5rem;
-  transition: all 800ms ease-in-out;
-}
-.texto-inicio a:hover{
-  background-color: #FFD455;
-  color: #000000;
-  transition: all 800ms ease-in-out;
+.inicio p{
+  color: #f8f8f8;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
-/*---- CARACTERISTICAS ----*/
+
+
+/* CARACTERISTICAS-HOME */
 
 .caracteristicas{
   height: 50vh;
@@ -116,7 +106,10 @@
   font-weight: 500;
 }
 
-/* ----SERVICIOS---- */
+
+
+
+/* SERVICIOS-HOME */
 
 .servicios{
   display: flex;
@@ -125,6 +118,7 @@
   justify-items: center;
   margin-bottom: 5rem;
 }
+
 .servicios-titulo{
   display: flex;
   flex-direction: column;
@@ -148,7 +142,6 @@
   font-size: 1.2rem;
   font-weight: 500;
   color: #323232;
-  
 }
 
 .contenedor-tarjetas{
@@ -162,13 +155,16 @@
   max-width: 25rem;
   transition: all 800ms ease-in-out;
 }
+
 .card img{
   height: 13rem;
 }
+
 .card-body{
   padding: 2.8rem;
   letter-spacing: 1px;
 }
+
 .card-title{
   font-family: "League Spartan";
   font-size: 1.8rem;
@@ -198,14 +194,16 @@
   border: 3px solid #323232;
   transition: all 800ms ease-in-out;
 }
+
 .servicios-btn:hover{
   color: #323232;
   background-color: #ffffff;
-  
   transition: all 800ms ease-in-out;
 }
 
-/* ----PORTFOLIO---- */
+
+
+/* PORTFOLIO-HOME */
 
 .trabajos{
   background-color: #F9F9F9;
@@ -241,7 +239,6 @@
   font-weight: 500;
   color: #323232;
 }
-
 
 .enlaces-portfolio{
   display: grid;
@@ -307,7 +304,10 @@
   visibility: visible;
 }
 
-/* ----CONTACTO---- */
+
+
+
+/* CONTACTO-HOME */
 
 .contacto{
   display: flex;
@@ -318,6 +318,7 @@
   gap: 3rem;
   margin: 5rem 0 5rem 0;
 }
+
 .contacto aside{
   border-left: 6px solid #FFD455;
   padding-left: 1.2rem;
@@ -334,6 +335,7 @@
   font-size: 1.7rem;
   font-weight: 500;
 }
+
 .contacto form{
   margin: 5rem 0 5rem 0;
   background-color: #FFD455;
@@ -351,6 +353,7 @@
 .inputs div, .msj-box{
   text-align: start;
 }
+
 .contacto label{
   font-size: 1rem;
   font-weight: 600;
@@ -393,7 +396,11 @@
   
 }
 
-/* ----FOOTER---- */
+
+
+
+/* FOOTER-LAYOUT */
+
 .footer {
   height: auto;
   background-color: #212529;
@@ -410,6 +417,7 @@
   width: 2rem;
   margin: 2rem 0.8rem 0.8rem 0.8rem;
 }
+
 .footer .marca img{
   width: 220px;
 }
@@ -422,6 +430,7 @@
   justify-items: center;
   padding-top: 3rem ;
 }
+
 .copy-marca{
   font-family: "League Spartan";
   font-size: 1rem;
@@ -429,8 +438,7 @@
 
 
 
-/*-----PAGINA SERVICIOS------*/
-
+/* PAGINA SERVICIOS */
 
 .pag-servicios section{
   margin-top: 4rem;
@@ -444,13 +452,15 @@
   overflow: hidden;
 }
 
-.pag-servicios h2{
+.pag-servicios h1{
+  font-family: "League Spartan";
   letter-spacing: 3px;
-  font-size: 4rem;
-  font-weight: 500;
+  font-size: 5rem;
+  font-weight: 600;
   color: #f8f8f8;
   filter: none;
 }
+
 .tarjetas-servicios{
   margin-top: 5rem;
   height: auto;
@@ -471,6 +481,7 @@
 .tarjetas-servicios .card:hover{
   transform: none;
 }
+
 .tarjetas-servicios .card-title, .tarjetas-servicios .card-text, .tarjetas-servicios .card-body{
   text-align: left;
 }
@@ -486,15 +497,142 @@
 
 
 
+/* PAGINAS PORTAFOLIO */
+
+.presentacion{
+  align-items: center;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin: 10rem 0 10rem 0;
+  padding: 0 5rem 0 5rem;
+}
+
+.banner-portfolio{
+  margin-top: 4rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)) ,url("https://images.pexels.com/photos/2101704/pexels-photo-2101704.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  background-position: center;
+  height: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.banner-portfolio h1{
+  font-family: "League Spartan";
+  font-size: 3.5rem;
+  font-weight: 500;
+  letter-spacing: 3px;
+  color: #f8f8f8;
+  border: solid 3px #f8f8f8;
+  padding: 4rem;
+}
+
+
+.marca-proyecto {
+  max-width: 30rem;
+}
+
+.marca-proyecto article{
+  margin-bottom: 2rem;
+}
+
+.marca-proyecto article h3{
+  text-align: start;
+  font-size: 1.3rem;
+  font-family: "League Spartan" ;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.marca-proyecto article p{
+  text-align: start;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.carousel{
+  margin: 3rem;
+}
+.container img{
+  width: 100%;
+}
+
+.container h5{
+  color: #f8f8f8;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-shadow: 1px 1px black, 
+              -1px -1px black, 
+              1px -1px black, 
+              -1px 1px black;
+  letter-spacing: 1px;
+}
+
+.container p{
+  color: #f8f8f8;
+  font-size: 0.8rem;
+  text-shadow: 1px 1px black, 
+              -1px -1px black, 
+              1px -1px black, 
+              -1px 1px black;
+  font-weight: 500;
+}
 
 
 
 
+/* PAGINA HIDROSIR */
+
+.pag-hidrosir .banner-portfolio {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)) ,url("https://images.pexels.com/photos/62307/air-bubbles-diving-underwater-blow-62307.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+.pag-hidrosir .banner-portfolio h1{
+    font-size: 4.5rem;
+    font-weight: 600;
+    letter-spacing: 5px;
+    padding: 1.5rem 2.2rem 1.5rem 2.2rem;
+}
 
 
-/* ----DISPOSITIVOS IGUALES O MENORES A 1250PX*/
+
+/* PAGINA MUEBLES 44 */
+
+.pag-muebles44 .banner-portfolio{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)), url("https://images.pexels.com/photos/1094770/pexels-photo-1094770.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+.pag-muebles44 .banner-portfolio h1{
+    font-size: 3.5rem;
+    font-weight: 500;
+    letter-spacing: 5px;
+    padding: 1.8rem 2rem 1.8rem 2rem;
+}
+
+.exp-gabrielguardiola .banner-portfolio {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)) ,url("https://images.pexels.com/photos/13550223/pexels-photo-13550223.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+
+
+/* DISPOSITIVOS IGUALES O MENORES A 1250PX*/
 
 @media screen and (max-width: 1250px){
+
+/* INICIO 1250 */
+
+.inicio h1{
+  font-size: 3rem;
+}
+
+.inicio p{
+  font-size: 1.2rem;
+}
+
+
+
+ /* CARACTERISTICAS-HOME 1250 */
 
   .caracteristicas{
     height: auto;
@@ -502,6 +640,7 @@
     padding: 0 1rem 0 1rem;
     margin-top: 5rem;
   }
+
   .box{
     max-width: 30rem;
   }
@@ -519,10 +658,16 @@
   .box p{
     font-size: 1.1rem;
   }
+
+
+
+  /* SERVICIOS-HOME 1250 */
+
   .servicios-titulo{
     margin-left: 1rem;
     max-width: 35rem;
   }
+
   .contenedor-tarjetas{
     grid-template-columns: 1fr;
     justify-content: center;
@@ -532,44 +677,70 @@
   .card{
     max-width: auto;
   }
+
+
+
+  /* PORTAFOLIO-HOME 1250 */
+
   .trabajos{
     height: auto;
   }
+
   .enlaces-portfolio{
     grid-template-columns: repeat(2, 1fr);
     padding: 0 1rem 2rem 1rem;
   }
+
+
+
+  /* CONTACTO-HOME 1250 */
 
   .contacto{
     flex-direction: column;
     margin-top: 10rem;
     gap: 1rem;
   }
+
   .contacto aside{
     max-width: 35rem;
   }
+
   .contacto form{
     margin-top: 5rem;
     padding: 3rem;
   }
 
-  .formas-contacto img{
-    width: 2rem;
-    margin: 0.5rem;
-  }
+
+
+
+  /* FOOTER-LAYOUT 1250 */
   
   .footer .marca img{
     width: 200px;
   }
+  
+  .formas-contacto img{
+    width: 2rem;
+    margin: 0.5rem;
+  }
+
   .copy {
     font-size: 0.7rem;
   }
+
   .copy-marca{
     font-size: 1rem;
   }
+
+
+
+
+  /* PAGINA SERVICIOS 1250 */
+
   .tarjetas-servicios .card-title, .tarjetas-servicios .card-text, .tarjetas-servicios .card-body{
     text-align: center;
   }
+
   .tarjetas-servicios .card-title{
    font-size: 1.5rem;
   }
@@ -577,11 +748,61 @@
   .tarjetas-servicios .card-text{
     font-size: 0.8rem;
   }
+
+
+
+
+  /* PAGINAS PORTFOLIO 1250 */
+
+  
+  .presentacion{
+    grid-template-columns: 1fr 1fr;
+    margin: 10rem 0 10rem 0;
+    padding: 0 1rem 0 1rem;
+    justify-items: center;
+    gap: 2rem;
+  }
+
+  .logo-presentacion img{
+    width: 25rem;
+  }
+
+  .marca-proyecto article h3{
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  .marca-proyecto article p{
+    font-size: 0.9rem;
+    text-align: center;
+    max-width: 25rem;
+  }
+
+  .carousel{
+    margin: 1rem;
+  }
+
+  .carousel-caption{
+    visibility: hidden;
+  }
+  
+
 }
+
+
+
+
+
+
+
+
 
 /* ----DISPOSITIVOS IGUALES O MENORES A 800px---- */
 
 @media screen and (max-width: 800px) {
+
+  /* INICIO 800 */
+
   .inicio{
     justify-content: center;
   }
@@ -590,25 +811,15 @@
     padding: 2rem;
     max-width: 32rem;
   }
+
   .inicio h1{
-    text-align: center;
-    font-size: 2.5rem;
-    margin-left: 0;
-    color: #ffff;
+    font-size: 2.6rem;
   }
-  .inicio-marca{
-    font-size: 3.5rem;
-    font-weight: 600;
-  }
-  .texto-inicio{
-    font-size: 3.5rem;
-  }
+
+
+
   
-  .texto-inicio a{
-    margin-top: 0.5rem;
-    margin-right: 0;
-    font-size: 1rem;
-  }
+  /* CARACTERISTICAS 800 */
 
   .caracteristicas{
     flex-direction: column;
@@ -619,6 +830,11 @@
   .box p{
     font-size: 1.2rem;      
   }
+ 
+
+
+
+  /* SERVICIOS 800 */
 
   .servicios-titulo{
     max-width: 28rem ;
@@ -635,21 +851,37 @@
   .contenedor-tarjetas{
     gap: 3rem;
   }
+
+
+
+
+  /* PORTAFOLIO 800 */
+
   .enlaces-portfolio{
     grid-template-columns: 1fr;
   }
+
   .box-portafolio{
     width: 25rem;
   }
+
+
+
+
+  /* CONTACTO 800 */
+
   .contacto{
     height: auto;
   }
+
   .contacto aside{
     max-width: 28rem;
   }
+
   .contacto form{
     margin: 1rem 0 2rem 0;
   }
+
   .contacto .inputs input{
     max-width: auto;
   }
@@ -657,6 +889,13 @@
   .msj-box, .msj-box textarea {
    max-width: auto;
   }
+  
+
+
+
+
+  /* FOOTER 800 */
+
   .footer{
     margin-top: 10rem;
     height: 80vh;
@@ -665,13 +904,15 @@
   }
 
 
-  .pag-servicios h2{
-    letter-spacing: 5px;
-    font-size: 3rem;
-    font-weight: 600;
-    color: #f8f8f8;
-    filter: none;
+
+
+
+   /* PAGINA SERVICIOS 800 */
+
+  .pag-servicios h1{
+    letter-spacing: 3px;
   }
+
   .tarjetas-servicios{
     margin-top: 5rem;
     height: auto;
@@ -679,9 +920,37 @@
     flex-direction: column;
     align-items: center;
   }
+
   .tarjetas-servicios .card{
     max-width: 90vw;
   }
+  
+
+
+
+  /* PAGINA BRUJA SUSTENTABLE 800 */
+
+  .banner-portfolio h1{
+    font-size: 2.5rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 3.5rem;
+  }
+
+  .presentacion{
+    grid-template-columns: 1fr;
+    margin: 8rem 0 8rem 0;
+    gap: 10rem;
+  }
+
+  .presentacion img{
+    width: 25rem;
+    height: auto;
+  }
+  .carousel{
+    margin: 0;
+  }
+
   
 }
 
@@ -690,32 +959,34 @@
 /* ----DISPOSITIVOS IGUALES O MENORES A 600px---- */
 
 @media screen and (max-width: 600px) {
-  .inicio h2{
-   font-size: 1.8rem;
-   padding: 5rem 0 0 0;
-  }
 
-  .inicio-marca{
-    font-size: 2.8rem
-  }
-  .texto-inicio{
+  /* INICIO 600 */
+ 
+  .texto-inicio h1{
     font-size: 2.8rem;
   }
-  .texto-inicio a{
-    width: 15rem;
-    font-size: 1rem;
-  }
+
+
+
+
+  /* CARACTERISTICAS 600 */
+  
   .caracteristicas{
     margin: 5rem 0 5rem 0;
     height: auto;
   }
+
+
+
+
+  /* SERVICIOS 600 */
 
   .servicios-titulo{
     width: auto;
   }
   
   .servicios-titulo h2{
-    font-size: 1.9rem;
+    font-size: 1.7rem;
   }
   
   .servicios-titulo p{
@@ -732,27 +1003,57 @@
   .card{
     max-width: 20rem;
   }
+
   .card img{
     height: auto;
   }
+
   .card-body{
-    padding: 0.5rem;
+    padding: 1rem;
   }
 
   .card-title{
     font-size: 1.5rem;
   }
+
   .card-text{
     font-size: 1rem;
+  }
+
+  .card:hover {
+    transform: none;
   }
 
   .servicios-btn{
     margin-left: 0.6rem;
   }
 
+
+
+
+
+/* PAGINA SERVICIOS 600*/
+  .pag-servicios h1{
+    font-size: 3rem;
+  }
+
+  .tarjetas-servicios{
+    padding: 1rem;
+  }
+
+  .tarjetas-servicios .card{
+    max-width: 25rem;
+  }
+
+
+
+
+ /* PORTAFOLIO 600 */
+
   .portfolio-titulo{    
     width: 90vw;
   }
+
   .portfolio-titulo h2{
     font-size: 2rem;
   }
@@ -764,22 +1065,33 @@
   .enlaces-portfolio{
     padding: 0;
   }
+
   .box-portafolio{
     width: 90vw;
   }
+
+
+
+
+
+  /* CONTACTO 600 */
+
   .contacto{
     justify-content: flex-start;
     padding: 0;
     margin-top: 2rem 0 2rem 0;
   }
+
   .contacto aside{
     max-width: 90vw;
     padding-left: 1rem;
   }
+
   .contacto aside h3{
     font-size: 2rem;
     font-weight: 600;
   }
+  
   .contacto aside p{
     font-size: 1.2rem;
   }
@@ -788,22 +1100,100 @@
     width: 90vw;
     padding: 1.5rem;
   }
+
    .msj-box, .msj-box textarea {
     max-width: 80vw;
   }
+
   .contacto .inputs input{
     width: 35vw;
   }
+
+
+
+
+  /* FOOTER 600 */
+
   .footer{
     padding: 2rem;
   }
+
   .footer .marca img{
     margin-top: 2rem;
     width: 180px;
   }
-  .tarjetas-servicios .card{
-    max-width: 28rem;
+
+
+
+
+  /* PAGINAS PORTFOLIO 600 */
+
+
+  .banner-portfolio h1{
+    font-size: 1.8rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 2rem;
   }
+
+  .pag-muebles44 .banner-portfolio h1{
+    font-size: 2rem;
+    padding: 1.8rem;
+  }
+
+  .pag-hidrosir .banner-portfolio h1{
+    font-size: 3rem;
+  }
+
+  .presentacion{
+    margin: 4rem 0 4rem 0;
+    gap: 5rem;
+  }
+
+  .logo-presentacion img{
+    max-width: 20rem;
+  }
+
+  .marca-proyecto {
+    max-width: 22rem;
+  }
+  
+  .marca-proyecto article{
+    margin-bottom: 2rem;
+    padding: 0.3rem;
+  }
+  
+  .marca-proyecto article h3{
+    font-size: 1rem;
+    letter-spacing: 2px;
+  }
+  
+  .marca-proyecto article p{
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+  
+  .container img{
+    width: 100%;
+  }
+  
+  .container h5{
+    color: #212529;
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+  
+  .container p{
+    color: #212529;
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+
+
+
+
+
 }
 
 /*
