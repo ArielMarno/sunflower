@@ -13,26 +13,26 @@ const Portfolio = () => {
         </div>
         <div className="enlaces-portfolio">
             <div className="box-portafolio">
-                <img src={brujasustentable} alt="" />
+                <img src={brujasustentable} alt="logo bruja sustentable" />
                 <div className="capa">
                    <Link to="BrujaSustentable">VER PORTFOLIO</Link>  
                 </div>
             </div>
             <div className="box-portafolio">
-                <img src={hidrosir} alt="" />
+                <img src={hidrosir} alt="logo hidrosir" />
                 <div className="capa">
                     <Link to="Hidrosir">VER PORTFOLIO</Link>
                 </div>
                 
             </div>
             <div className="box-portafolio">
-                <img src={muebles44} alt="" />
+                <img src={muebles44} alt="logo muebles 44" />
                 <div className="capa">
                     <Link to="Muebles44">VER PORTFOLIO</Link>
                 </div>
             </div>
             <div className="box-portafolio">
-                <img src={guardiola} alt="" />
+                <img src={guardiola} alt="logo gabriel guardiola" />
                 <div className="capa">
                     <Link to="ExpGabrielGuardiola">VER PORTFOLIO</Link>
                 </div>

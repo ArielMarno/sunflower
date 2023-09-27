@@ -17,7 +17,7 @@ const Muebles44 = () => {
         </div>
         <section className="presentacion">
           <aside className="logo-presentacion">
-            <img src={logom44} alt="" className="logobs"/>
+            <img src={logom44} alt="" className="logo muebles 44"/>
           </aside>
           <aside className="marca-proyecto">
             <article className="marca">
@@ -53,7 +53,7 @@ const Muebles44 = () => {
 
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <img src={tarjetas} className="d-block" alt="..."/>
+                <img src={tarjetas} className="d-block" alt="tarjetas"/>
                 <div className="carousel-caption d-none d-md-block">
                   <h5>Diseño De Tarjetas Corporativas</h5>
                   <p>Doble faz, respetando elementos y colores de la marca.</p>
@@ -61,7 +61,7 @@ const Muebles44 = () => {
               </div>
 
               <div className="carousel-item">
-                <img src={tienda} className="d-block" alt="..."/>
+                <img src={tienda} className="d-block" alt="tienda onlinbe"/>
                 <div className="carousel-caption d-none d-md-block">
                   <h5>Creación De e-Commerce</h5>
                   <p>Utilizando TiendaNube realizamos la carga de todos sus productos.</p>
@@ -69,7 +69,7 @@ const Muebles44 = () => {
               </div>
 
               <div className="carousel-item">
-                <img src={branding} className="d-block" alt="..."/>
+                <img src={branding} className="d-block" alt="camiseta"/>
                 <div className="carousel-caption d-none d-md-block">
                   <h5>Branding e Identidad De Marca</h5>
                   <p>Paleta de colores, tipografia y elementos graficos.</p>
@@ -77,7 +77,7 @@ const Muebles44 = () => {
               </div>
 
               <div className="carousel-item">
-                <img src={local} className="d-block" alt="..."/>
+                <img src={local} className="d-block" alt="tienda con cartel"/>
                 <div className="carousel-caption d-none d-md-block">
                   <h5>Creación De Logo</h5>
                   <p>Respetando el rubro del emprendimiento y el 44 significativo para los dueños.</p>
@@ -85,7 +85,7 @@ const Muebles44 = () => {
               </div>
 
               <div className="carousel-item">
-                <img src={google} className="d-block" alt="..."/>
+                <img src={google} className="d-block" alt="google negocios"/>
                 <div className="carousel-caption d-none d-md-block">
                   <h5>Creación De Google Negocios</h5>
                   <p>Creación desde cero, seguimiento de opiniones y carga de imágenes.</p>
@@ -93,14 +93,14 @@ const Muebles44 = () => {
               </div>
 
               <div className="carousel-item">
-                <img src={feed} className="d-block" alt="..."/>
+                <img src={feed} className="d-block" alt="feed de instagram"/>
                 <div className="carousel-caption d-none d-md-block">
                   <h5>Diseño De Feed Para Instagram</h5>
                   <p>Manteniendo el estilo de marca y elementos creados.</p>
                 </div>
               </div>
               <div className="carousel-item">
-                <img src={catalogo} className="d-block" alt="..."/>
+                <img src={catalogo} className="d-block" alt="catalogo"/>
                 <div className="carousel-caption d-none d-md-block">
                   <h5>Edición De Imagenes Para Catalogo</h5>
                   <p>Utilizados en su tienda virtual, listado de precios y MercadoLibre.</p>

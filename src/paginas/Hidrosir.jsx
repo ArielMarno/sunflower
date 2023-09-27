@@ -15,7 +15,7 @@ const Hidrosir = () => {
         </div>
         <section className="presentacion">
           <aside className="logo-presentacion">
-            <img src={hidrosir} alt="" />
+            <img src={hidrosir} alt="logo hidrosir" />
           </aside>
           <aside className="marca-proyecto">
             <article className="marca">
@@ -42,35 +42,35 @@ const Hidrosir = () => {
             </div>
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <img src={post} className="d-block" alt="..."/>
+                <img src={post} className="d-block" alt="post para instagram"/>
                 <div className="carousel-caption d-none d-md-block">
                   <h5>Gestion De Redes Sociales</h5>
                   <p>Edicion de imagen, generación de copy y programación de publicaciones.</p>
                 </div>
               </div>
               <div className="carousel-item">
-                <img src={folleto} className="d-block" alt="..."/>
+                <img src={folleto} className="d-block" alt="folleto"/>
                 <div className="carousel-caption d-none d-md-block">
                   <h5>Diseño Para Folleteria</h5>
                   <p>Ideal para promociones o información importante.</p>
                 </div>
               </div>
               <div className="carousel-item">
-                <img src={carousel} className="d-block" alt="..."/>
+                <img src={carousel} className="d-block" alt="carusel para instagram"/>
                 <div className="carousel-caption d-none d-md-block">
                   <h5>Diseño De Feed Para Instagram</h5>
                   <p>Manteniendo el estilo de marca y colores corporativos.</p>
                 </div>
               </div>
               <div className="carousel-item">
-                <img src={stories} className="d-block" alt="..."/>
+                <img src={stories} className="d-block" alt="historias de instagram"/>
                 <div className="carousel-caption d-none d-md-block">
                   <h5>Creación De Historias Promocionales e Informativas</h5>
                   <p>Horarios de atención, avisos importantes y nuevos ingresos, entre otros.</p>
                 </div>
               </div>
               <div className="carousel-item">
-                <img src={tarjeta} className="d-block" alt="..."/>
+                <img src={tarjeta} className="d-block" alt="tarjeta"/>
                 <div className="carousel-caption d-none d-md-block">
                   <h5>Diseño De Tarjetas Corporativas</h5>
                   <p>Listo para enviar a grafica, utilizando su manual de marca.</p>

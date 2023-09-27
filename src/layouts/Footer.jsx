@@ -10,15 +10,15 @@ const Footer = () => {
     <div className='footer'>
                 
                 <div className='marca'>
-                    <img src={logo} alt="" />
+                    <img src={logo} alt="logo sunflower" />
                 </div>
 
                 <div className='formas-contacto'>
-                    <a href="https://www.facebook.com/sunflower.agencia" target="_blank" rel="noopener noreferrer"><img src={facebook} alt="" /></a>
-                    <a href="https://www.instagram.com/sunflower_agencia/" target="_blank" rel="noopener noreferrer"><img src={instagram} alt="" /></a>
-                    <a href="https://wa.me/message/TPKQBG3WOOUFP1" target="_blank" rel="noopener noreferrer"><img src={whatsapp} alt="" /></a>
+                    <a href="https://www.facebook.com/sunflower.agencia" target="_blank" rel="noopener noreferrer"><img src={facebook} alt="logo facebook" /></a>
+                    <a href="https://www.instagram.com/sunflower_agencia/" target="_blank" rel="noopener noreferrer"><img src={instagram} alt="logo instagram" /></a>
+                    <a href="https://wa.me/message/TPKQBG3WOOUFP1" target="_blank" rel="noopener noreferrer"><img src={whatsapp} alt="logo whatsapp" /></a>
                     <a href="mailto: agenciadigital.sunflower@gmail.com"><img src={email} alt="" /></a>
-                    <a href="https://goo.gl/maps/LqHN7RFHGwKj3bESA" target="_blank" rel="noopener noreferrer"><img src={ubicacion} alt="" /></a>
+                    <a href="https://goo.gl/maps/LqHN7RFHGwKj3bESA" target="_blank" rel="noopener noreferrer"><img src={ubicacion} alt="logo arroba" /></a>
                 </div>
 
                 <div className="copy">

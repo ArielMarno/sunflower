@@ -13,7 +13,7 @@ const PagServicios = () => {
          <div className="card">
           <div className="row g-0">
             <div className="col-md-4">
-              <img src="https://img.freepik.com/premium-photo/social-media-icons-logos-mobile-phone-screen-3d_125322-177.jpg?w=740" className="img-fluid rounded-start" alt="..."/>
+              <img src="https://img.freepik.com/premium-photo/social-media-icons-logos-mobile-phone-screen-3d_125322-177.jpg?w=740" className="img-fluid rounded-start" alt="redes sociales"/>
             </div>
             <div className="col-md-8">
               <div className="card-body">
@@ -28,7 +28,7 @@ const PagServicios = () => {
          <div className="card">
           <div className="row g-0">
             <div className="col-md-4">
-              <img src="https://images.pexels.com/photos/7147720/pexels-photo-7147720.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="img-fluid rounded-start" alt="..."/>
+              <img src="https://images.pexels.com/photos/7147720/pexels-photo-7147720.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="img-fluid rounded-start" alt="diseñador grafico"/>
             </div>
             <div className="col-md-8">
               <div className="card-body">
@@ -43,7 +43,7 @@ const PagServicios = () => {
          <div className="card">
           <div className="row g-0">
             <div className="col-md-4">
-              <img src="https://img.freepik.com/free-photo/cyber-monday-shopping-sales_23-2148688502.jpg?w=1380&t=st=1693958214~exp=1693958814~hmac=7927de8316d4736724b8a4ecd30512c8dd8a2cd0a15d1cd5ad0c4ae1e9db7ec5" className="img-fluid rounded-start" alt="..."/>
+              <img src="https://images.pexels.com/photos/6214476/pexels-photo-6214476.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="img-fluid rounded-start" alt="tienda online"/>
             </div>
             <div className="col-md-8">
               <div className="card-body">
@@ -58,7 +58,7 @@ const PagServicios = () => {
          <div className="card">
           <div className="row g-0">
             <div className="col-md-4">
-              <img src="https://images.pexels.com/photos/11894290/pexels-photo-11894290.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="img-fluid rounded-start" alt="..."/>
+              <img src="https://images.pexels.com/photos/11894290/pexels-photo-11894290.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="img-fluid rounded-start" alt="editor multimedia"/>
             </div>
             <div className="col-md-8">
               <div className="card-body">
@@ -73,7 +73,7 @@ const PagServicios = () => {
          <div className="card">
           <div className="row g-0">
             <div className="col-md-4">
-              <img src="https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="img-fluid rounded-start" alt="..."/>
+              <img src="https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="img-fluid rounded-start" alt="editor de codigo"/>
             </div>
             <div className="col-md-8">
               <div className="card-body">
@@ -88,7 +88,7 @@ const PagServicios = () => {
          <div className="card">
           <div className="row g-0">
             <div className="col-md-4">
-              <img src="https://img.freepik.com/premium-photo/young-girl-pointing-google-ads-smart-phone-screen-during-pandemic-coronavirus-prevention-google-ads-is-online-platform-advertising-service-offering_21483-272.jpg?w=740" className="img-fluid rounded-start" alt="..."/>
+              <img src="https://img.freepik.com/premium-photo/young-girl-pointing-google-ads-smart-phone-screen-during-pandemic-coronavirus-prevention-google-ads-is-online-platform-advertising-service-offering_21483-272.jpg?w=740" className="img-fluid rounded-start" alt="google ads"/>
             </div>
             <div className="col-md-8">
               <div className="card-body">
@@ -103,7 +103,7 @@ const PagServicios = () => {
          <div className="card">
           <div className="row g-0">
             <div className="col-md-4">
-              <img src="https://img.asmedia.epimg.net/resizer/LT5-N0dVVBilAJcUBlzfqDvl7Gg=/644x362/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/KSCVXMRMGFOJXBFLRQ2TUCRCN4.jpg" className="img-fluid rounded-start" alt="..."/>
+              <img src="https://img.asmedia.epimg.net/resizer/LT5-N0dVVBilAJcUBlzfqDvl7Gg=/644x362/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/KSCVXMRMGFOJXBFLRQ2TUCRCN4.jpg" className="img-fluid rounded-start" alt="cajas mercado libre"/>
             </div>
             <div className="col-md-8">
               <div className="card-body">

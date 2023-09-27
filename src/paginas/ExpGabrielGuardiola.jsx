@@ -18,7 +18,7 @@ const ExpGabrielGuardiola = () => {
         </div>
         <section className="presentacion">
           <aside className="logo-presentacion">
-            <img src={expgg} alt="" />
+            <img src={expgg} alt="logo gabriel guardiola" />
           </aside>
           <aside className="marca-proyecto">
             <article className="marca">
@@ -45,38 +45,38 @@ const ExpGabrielGuardiola = () => {
             </div>
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <img src={tarjeta} className="d-block" alt="..."/>
+                <img src={tarjeta} className="d-block" alt="tarjeta"/>
                 <div className="carousel-caption d-none d-md-block">
                   <h5>Diseño de tarjetas corporativas</h5>
                   <p>Doble faz, respetando el manual de marca de Exp-Spain.</p>
                 </div>
               </div>
               <div className="carousel-item">
-                <img src={pagina} className="d-block" alt="..."/>
+                <img src={pagina} className="d-block" alt="pagina web"/>
                 <div className="carousel-caption d-none d-md-block">
                   <h5>Creación de pagina web</h5>
                   <p>Con la plataforma Jimdo, creamos su sitio donde explica su trabajo y muestra propiedades en venta.</p>
                 </div>
               </div>
               <div className="carousel-item">
-                <img src={edicion} className="d-block" alt="..."/>
+                <img src={edicion} className="d-block" alt="edicion photoshop"/>
                 <div className="carousel-caption d-none d-md-block">
                   <h5>Edición de imagenes</h5>
                   <p>Resaltamos los aspectos esenciales de las propiedades.</p>
                 </div>
               </div>
               <div className="carousel-item">
-                <img src={feed} className="d-block" alt="..."/>
+                <img src={feed} className="d-block" alt="publicaciones de instagram"/>
                 <div className="carousel-caption d-none d-md-block">
                   <h5>Gestión de redes sociales</h5>
                   <p>Creación de post, generación de copys y programación de publicaciones.</p>
                 </div>
               </div>
               <div className="carousel-item">
-                <img src={presentacion} className="d-block" alt="..."/>
+                <img src={presentacion} className="d-block" alt="presentacion comercial"/>
                 <div className="carousel-caption d-none d-md-block">
                   <h5>Creación de presentaciónes comerciales</h5>
-                  <p>Con presentación, modo de trabajo, herramientas y mas.</p>
+                  <p>Datos personales, modo de trabajo, herramientas y mas.</p>
                 </div>
               </div>
             </div>

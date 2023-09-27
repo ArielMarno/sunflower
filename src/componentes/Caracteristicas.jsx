@@ -6,17 +6,17 @@ const Caracteristicas = () => {
   return (
     <div className='caracteristicas'>
         <div className='box'>
-            <img src={versatilidad} alt="icono" />
+            <img src={versatilidad} alt="icono versatilidad" />
             <h2 className='titulo'>Verstilidad</h2>
             <p className='descripcion'>Contamos con la capacidad de adaptarnos a las necesidades y requerimientos de nuestros clientes.</p>
         </div>
         <div className='box'>
-            <img src={responsabilidad} alt="icono" />
+            <img src={responsabilidad} alt="icono responsabilidad" />
             <h2 className='titulo'>Responsabilidad</h2>
             <p className='descripcion'>Comprometidos con la gestion eficiente del tiempo y los recursos, priorizando siempre tus objetivos.</p>
         </div>
         <div className='box'>
-            <img src={creatividad} alt="icono" />
+            <img src={creatividad} alt="icono creatividad" />
             <h2 className='titulo'>Creatividad</h2>
             <p className='descripcion'>Creamos estrategias innovadoras y efectivas para destacar y atraer la atención de tu público.</p>
         </div>

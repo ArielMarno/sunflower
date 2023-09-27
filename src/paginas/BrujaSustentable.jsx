@@ -1,9 +1,9 @@
 import NavBar from "../layouts/NavBar";
 import Footer from "../layouts/Footer";
 import bslogo from "../assets/BrujaSustentable/logo-bs.png";
-import post1 from "../assets/BrujaSustentable/bs-post1.png";
-import post2 from "../assets/BrujaSustentable/bs-post2.png";
-import feed from "../assets/BrujaSustentable/bs-stories.png";
+import publicacion from "../assets/BrujaSustentable/bs-post1.png";
+import feed from "../assets/BrujaSustentable/bs-post2.png";
+import stories from "../assets/BrujaSustentable/bs-stories.png";
 import cartas from "../assets/BrujaSustentable/bs-cartas.png";
 const BrujaSustentable = () => {
   return (
@@ -14,7 +14,7 @@ const BrujaSustentable = () => {
         </div>
         <section className="presentacion">
           <aside className="logo-presentacion">
-            <img src={bslogo} alt="" />
+            <img src={bslogo} alt="logo bruja sustentable" />
           </aside>
           <aside className="marca-proyecto">
             <article className="marca">
@@ -40,28 +40,28 @@ const BrujaSustentable = () => {
             </div>
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <img src={post1} className="d-block" alt="..."/>
+                <img src={publicacion} className="d-block" alt="publicacion instagram"/>
                 <div className="carousel-caption d-none d-md-block">
                   <h5>Gestion De Redes Sociales</h5>
                   <p>Edicion de imagen, generación de copy y programación de publicaciones.</p>
                 </div>
               </div>
               <div className="carousel-item">
-                <img src={post2} className="d-block" alt="..."/>
+                <img src={feed} className="d-block" alt="feed de instagram"/>
                 <div className="carousel-caption d-none d-md-block">
                   <h5>Diseño De Feed Para Instagram</h5>
                   <p>Respetando colores corporativos y manteniendo el estilo de marca.</p>
                 </div>
               </div>
               <div className="carousel-item">
-                <img src={feed} className="d-block" alt="..."/>
+                <img src={stories} className="d-block" alt="historia para instagram"/>
                 <div className="carousel-caption d-none d-md-block">
                   <h5>Creación De Historias Estaticas e Interactivas</h5>
                   <p>Agenda con turnos disponibles, cartas con mensajes, avisos importantes, entre otros.</p>
                 </div>
               </div>
               <div className="carousel-item">
-                <img src={cartas} className="d-block" alt="..."/>
+                <img src={cartas} className="d-block" alt="diseño de cartas"/>
                 <div className="carousel-caption d-none d-md-block">
                   <h5>Diseño De Cartas Oráculo Con Mensajes Guía</h5>
                   <p>Creación de imagenes interactivas para historias de Instagram.</p>
