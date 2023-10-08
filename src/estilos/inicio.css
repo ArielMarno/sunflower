@@ -1,0 +1,73 @@
+.inicio{
+    background-image: url("https://th.bing.com/th/id/R.573dccd2370c5275325e282773ab415d?rik=Z3oPRrjPH%2f%2b9TQ&pid=ImgRaw&r=0");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-bottom: 5rem;
+  }
+  
+  .inicio h1{
+    letter-spacing: 2px;
+    font-family: "League Spartan";
+    text-align: center;
+    font-size: 3.2rem;
+    font-weight: 900;
+    color: #f8f8f8;
+    margin-bottom: 1rem;
+  }
+  
+  .inicio p{
+    color: #f8f8f8;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+
+
+  /* DISPOSITIVOS IGUALES O MENORES A 1250PX*/
+
+@media screen and (max-width: 1250px){
+  .inicio h1{
+    font-size: 3rem;
+  }
+  
+  .inicio p{
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+
+  .inicio{
+    justify-content: center;
+  }
+
+  .texto-inicio{
+    padding: 2rem;
+    max-width: 32rem;
+  }
+
+  .inicio h1{
+    font-size: 2.6rem;
+  }
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+ 
+  .texto-inicio h1{
+    font-size: 2.4rem;
+  }
+
+}
+
+
+  
+  

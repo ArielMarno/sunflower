@@ -1,3 +1,4 @@
+import '../estilos/navbar.css';
 import { Link } from 'react-router-dom';
 import logo from "../assets/logo_navbar.png";
 import facebook from "../assets/social/facebook.png";

@@ -1,3 +1,4 @@
+import '../estilos/portafolio.css';
 import { Link } from "react-router-dom";
 import brujasustentable from "../assets/portfolio/logo-brujasustentable.png";
 import hidrosir from "../assets/portfolio/logo-hidrosir.png";
@@ -9,7 +10,7 @@ const Portfolio = () => {
     <div className="trabajos" id="portfolio" name="portafolio">
         <div className="portfolio-titulo">
             <h2>Te Compartimos Algunos De Nuestros Trabajos Y Sus Resultados</h2>
-            <p>Sabemos la importancia de la comunicacion en el proceso creativo y participamos siempre de manera activa y responsable en tu proyecto.</p>
+            <p>Sabemos la importancia de la comunicación en el proceso creativo y participamos siempre de manera activa y responsable en tu proyecto.</p>
         </div>
         <div className="enlaces-portfolio">
             <div className="box-portafolio">

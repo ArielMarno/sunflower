@@ -42,8 +42,8 @@ const BrujaSustentable = () => {
               <div className="carousel-item active">
                 <img src={publicacion} className="d-block" alt="publicacion instagram"/>
                 <div className="carousel-caption d-none d-md-block">
-                  <h5>Gestion De Redes Sociales</h5>
-                  <p>Edicion de imagen, generación de copy y programación de publicaciones.</p>
+                  <h5>Gestión De Redes Sociales</h5>
+                  <p>Edición de imágen, generación de copy y programación de publicaciones.</p>
                 </div>
               </div>
               <div className="carousel-item">
@@ -64,7 +64,7 @@ const BrujaSustentable = () => {
                 <img src={cartas} className="d-block" alt="diseño de cartas"/>
                 <div className="carousel-caption d-none d-md-block">
                   <h5>Diseño De Cartas Oráculo Con Mensajes Guía</h5>
-                  <p>Creación de imagenes interactivas para historias de Instagram.</p>
+                  <p>Creación de imágenes interactivas para historias de Instagram.</p>
                 </div>
               </div>
             </div>

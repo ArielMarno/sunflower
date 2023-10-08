@@ -1,3 +1,4 @@
+import '../estilos/caracteristicas.css';
 import versatilidad from "../assets/caracteristicas/versatilidad.png";
 import responsabilidad from "../assets/caracteristicas/responsabilidad.png";
 import creatividad from "../assets/caracteristicas/creatividad.png";
@@ -13,7 +14,7 @@ const Caracteristicas = () => {
         <div className='box'>
             <img src={responsabilidad} alt="icono responsabilidad" />
             <h2 className='titulo'>Responsabilidad</h2>
-            <p className='descripcion'>Comprometidos con la gestion eficiente del tiempo y los recursos, priorizando siempre tus objetivos.</p>
+            <p className='descripcion'>Comprometidos con la gestión eficiente del tiempo y los recursos, priorizando siempre tus objetivos.</p>
         </div>
         <div className='box'>
             <img src={creatividad} alt="icono creatividad" />

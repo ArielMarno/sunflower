@@ -1,0 +1,21 @@
+.navbar-brand img{
+    width: 8rem;
+  }
+  
+  .navbar-nav{
+    gap: 0.3rem;
+  }
+  .nav-link{
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #ffff;
+  }
+  
+  .nav-link:hover{
+    color: #FFD455;
+  }
+  
+  .social img{
+    padding: 0.4rem;
+    width: 2.5rem;
+  }

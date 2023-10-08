@@ -20,7 +20,7 @@ const Hidrosir = () => {
           <aside className="marca-proyecto">
             <article className="marca">
               <h3>HIDROSIR</h3>
-              <p> Es una empresa familiar con años de experiencia en el tratamiento de aguas duras.  <br />Javier y Andrea, sus dueños, no solamente venden sus productos domiciliarios, tambien brindan capacitación y venta de productos a emprendedores para que puedan desempeñarse en el rubro.  </p>
+              <p> Es una empresa familiar con años de experiencia en el tratamiento de aguas duras.  <br />Javier y Andrea, sus dueños, no solamente venden sus productos domiciliarios, también brindan capacitación y venta de productos a emprendedores para que puedan desempeñarse en el rubro.  </p>
             </article>
             <article className="proyecto">
                 <h3>PROYECTO</h3>
@@ -44,14 +44,14 @@ const Hidrosir = () => {
               <div className="carousel-item active">
                 <img src={post} className="d-block" alt="post para instagram"/>
                 <div className="carousel-caption d-none d-md-block">
-                  <h5>Gestion De Redes Sociales</h5>
-                  <p>Edicion de imagen, generación de copy y programación de publicaciones.</p>
+                  <h5>Gestión De Redes Sociales</h5>
+                  <p>Edición de imágen, generación de copy y programación de publicaciones.</p>
                 </div>
               </div>
               <div className="carousel-item">
                 <img src={folleto} className="d-block" alt="folleto"/>
                 <div className="carousel-caption d-none d-md-block">
-                  <h5>Diseño Para Folleteria</h5>
+                  <h5>Diseño Para Folletería</h5>
                   <p>Ideal para promociones o información importante.</p>
                 </div>
               </div>
@@ -73,7 +73,7 @@ const Hidrosir = () => {
                 <img src={tarjeta} className="d-block" alt="tarjeta"/>
                 <div className="carousel-caption d-none d-md-block">
                   <h5>Diseño De Tarjetas Corporativas</h5>
-                  <p>Listo para enviar a grafica, utilizando su manual de marca.</p>
+                  <p>Listo para enviar a gráfica, utilizando su manual de marca.</p>
                 </div>
               </div>
             </div>

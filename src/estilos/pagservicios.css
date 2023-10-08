@@ -1,0 +1,102 @@
+.pag-servicios section{
+    margin-top: 4rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)) ,url("https://th.bing.com/th/id/R.a419fa73e5fabe4524ed12a108d1ff95?rik=cXEXAE1DoHR%2fpA&pid=ImgRaw&r=0");
+    background-size: cover;
+    background-position: center;
+    min-height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .pag-servicios h1{
+    font-family: "League Spartan";
+    letter-spacing: 3px;
+    font-size: 5rem;
+    font-weight: 600;
+    color: #f8f8f8;
+    filter: none;
+  }
+  
+  .tarjetas-servicios{
+    margin-top: 5rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .tarjetas-servicios .card{
+    max-width: 65rem;
+    height: auto;
+    padding: 0.2rem;
+    margin-bottom: 5rem;
+    align-items: center;
+    justify-items: center;
+  }
+  
+  .tarjetas-servicios .card:hover{
+    transform: none;
+  }
+  
+  .tarjetas-servicios .card-title, .tarjetas-servicios .card-text, .tarjetas-servicios .card-body{
+    text-align: left;
+  }
+  
+  .tarjetas-servicios .card img{
+    height: 100%;
+  }
+  
+  .tarjetas-servicios .card-body{
+    padding: 2rem;
+  }
+
+
+  @media screen and (max-width: 1250px){
+    .tarjetas-servicios .card-title, .tarjetas-servicios .card-text, .tarjetas-servicios .card-body{
+      text-align: center;
+    }
+  
+    .tarjetas-servicios .card-title{
+     font-size: 1.5rem;
+    }
+  
+    .tarjetas-servicios .card-text{
+      font-size: 0.8rem;
+    }
+  
+  } 
+
+  @media screen and (max-width: 800px) {
+    .pag-servicios h1{
+      letter-spacing: 3px;
+    }
+  
+    .tarjetas-servicios{
+      margin-top: 5rem;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .tarjetas-servicios .card{
+      max-width: 90vw;
+    }
+    
+  }
+  @media screen and (max-width: 600px) {
+
+      .pag-servicios h1{
+        font-size: 3rem;
+      }
+    
+      .tarjetas-servicios{
+        padding: 1rem;
+      }
+    
+      .tarjetas-servicios .card{
+        max-width: 25rem;
+      }
+    }    

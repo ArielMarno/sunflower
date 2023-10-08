@@ -1,3 +1,4 @@
+import '../estilos/footer.css';
 import logo from "../assets/logo-footer.png";
 import facebook from "../assets/social/facebook.png";
 import instagram from "../assets/social/instagram.png";

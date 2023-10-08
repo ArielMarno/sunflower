@@ -1,0 +1,36 @@
+@keyframes slide{
+    from {
+      transform: translateX(0);
+    }
+    to{
+      transform: translateX(-100%);
+    }
+  }
+  
+  .logos{
+    overflow: hidden;
+    padding: 60px 0;
+    background-color: white;
+    white-space: nowrap;
+  }
+  
+  .logos-slide{
+    display: inline-block;
+    animation: 30s slide infinite linear;
+  }
+  
+  .logos-slide img{
+    height: 50px;
+    margin: 0 60px;
+  }
+
+
+
+
+  @media screen and (max-width: 800px){
+    .logos-slide img{
+      width: 180px;
+      height: auto;
+    }
+  }
+

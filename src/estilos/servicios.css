@@ -1,0 +1,177 @@
+.servicios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 5rem;
+  }
+  
+  .servicios-titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 5rem 0 5rem 0;
+    padding-left: 1.2rem;
+    max-width: 65rem;
+    border-left: 6px solid #FFD455;
+  }
+  
+  .servicios-titulo h2{
+    text-align: start;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #323232;
+    margin-bottom: 1.2rem;
+  }
+  
+  .servicios-titulo p{
+    text-align: start;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #323232;
+  }
+  
+  .contenedor-tarjetas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+    padding: 0 2rem 0 2rem;
+  }
+  
+  .card{
+    max-width: 22rem;
+    transition: all 500ms ease-in-out;
+  }
+  
+  .card img{
+    height: 15rem;
+  }
+  
+  .card-body{
+    padding: 2rem;
+    letter-spacing: 1px;
+  }
+  
+  .card-title{
+    font-family: "League Spartan";
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  
+  .card-text{
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  
+  .card:hover {
+    transform: scale(1.1);
+    transition: all 500ms ease-in-out;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.20);
+  }
+  
+  .servicios-btn{
+    margin-top: 4rem;
+    width: 7rem;
+    font-size: 0.9rem;
+    font-weight: 800;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: #f8f8f8;
+    background-color: #323232;
+    border: 3px solid #323232;
+    transition: all 500ms ease-in-out;
+  }
+  
+  .servicios-btn:hover{
+    color: #323232;
+    background-color: #ffffff;
+    transition: all 500ms ease-in-out;
+  }
+
+  
+  @media screen and (max-width: 1250px){
+
+    .servicios-titulo{
+      margin-left: 1rem;
+      max-width: 35rem;
+    }
+  
+    .contenedor-tarjetas{
+      grid-template-columns: 1fr;
+      justify-content: center;
+      gap: 2rem;
+    }
+  
+    .card{
+      max-width: auto;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+
+  
+    .servicios-titulo{
+      max-width: 28rem ;
+    }
+  
+    .servicios-titulo h2{ 
+      font-size: 2.3rem;
+    }
+    
+    .servicios-titulo p{
+      font-size: 1.3rem;
+    }
+  
+    .contenedor-tarjetas{
+      gap: 3rem;
+    }
+  }  
+
+
+  @media screen and (max-width: 600px) {
+
+    .servicios-titulo{
+      width: auto;
+    }
+    
+    .servicios-titulo h2{
+      font-size: 1.5rem;
+    }
+    
+    .servicios-titulo p{
+      font-size: 1rem;
+    }
+  
+    .contenedor-tarjetas{
+      width: auto;
+      gap: 3rem;
+      align-items: center;
+      padding: 1.2rem;
+    }
+  
+    .card{
+      max-width: 20rem;
+    }
+  
+    .card img{
+      height: auto;
+    }
+  
+    .card-body{
+      padding: 1.2rem;
+    }
+  
+    .card-title{
+      font-size: 1.4rem;
+    }
+  
+    .card-text{
+      font-size: 0.8rem;
+    }
+  
+    .card:hover {
+      transform: none;
+      box-shadow: none;
+    }
+  
+  }   

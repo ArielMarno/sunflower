@@ -1,3 +1,4 @@
+import '../estilos/pagservicios.css';
 import React from 'react'
 import NavBar from "../layouts/NavBar";
 import Footer from "../layouts/Footer";
@@ -7,7 +8,7 @@ const PagServicios = () => {
     <div className='pag-servicios'>
         <NavBar />
         <section>
-          <h1>SERVICIOS</h1>
+          <h1>Servicios</h1>
         </section>
         <div className='tarjetas-servicios'>
          <div className="card">
@@ -32,7 +33,7 @@ const PagServicios = () => {
             </div>
             <div className="col-md-8">
               <div className="card-body">
-                <h5 className="card-title">Diseño Grafico</h5>
+                <h5 className="card-title">Diseño Gráfico</h5>
                 <p className="card-text">Creamos tu identidad visual única y coherente para tu marca. Desde el diseño de logotipos hasta la creación de gráficos personalizados. Hacemos realidad tu visión.</p>
                 <a href="https://forms.gle/8zw6qPHkStFnA4VG9" type='buttom' className='servicios-btn'>CONSULTAR</a>
               </div>

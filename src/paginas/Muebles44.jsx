@@ -72,7 +72,7 @@ const Muebles44 = () => {
                 <img src={branding} className="d-block" alt="camiseta"/>
                 <div className="carousel-caption d-none d-md-block">
                   <h5>Branding e Identidad De Marca</h5>
-                  <p>Paleta de colores, tipografia y elementos graficos.</p>
+                  <p>Paleta de colores, tipografía y elementos gráficos.</p>
                 </div>
               </div>
 
@@ -102,7 +102,7 @@ const Muebles44 = () => {
               <div className="carousel-item">
                 <img src={catalogo} className="d-block" alt="catalogo"/>
                 <div className="carousel-caption d-none d-md-block">
-                  <h5>Edición De Imagenes Para Catalogo</h5>
+                  <h5>Edición De Imágenes Para Catalogo</h5>
                   <p>Utilizados en su tienda virtual, listado de precios y MercadoLibre.</p>
                 </div>
               </div>

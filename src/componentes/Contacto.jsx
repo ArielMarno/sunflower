@@ -1,9 +1,10 @@
+import '../estilos/contacto.css';
 const Contacto = () => {
   return (
         <div className="contacto" id="contacto">
             <aside>
                 <h3>¡Contanos sobre tu proyecto!</h3>
-                <p>¿Como te gustaria que trabajemos juntos?<br /></p>
+                <p>¿Cómo te gustaría que trabajemos juntos?<br /></p>
             </aside>
             <form  target="_blank" action="https://formsubmit.co/agenciadigital.sunflower@gmail.com" method="POST">
                 <div className="inputs">

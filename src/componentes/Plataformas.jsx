@@ -1,3 +1,4 @@
+import '../estilos/plataformas.css';
 import empretienda from "../assets/LogosCarusel/et.png";
 import googleadds from "../assets/LogosCarusel/ga.png";
 import jimdo from "../assets/LogosCarusel/jd.png";
@@ -5,7 +6,7 @@ import mercadolibre from "../assets/LogosCarusel/ml.png";
 import tiendanube from "../assets/LogosCarusel/tn.png";
 import tiendup from "../assets/LogosCarusel/tu.png";
 
-const LogosPlataformas = () => {
+const Plataformas = () => {
   return (
     <div className='logos'>
         <div className='logos-slide'>
@@ -28,4 +29,4 @@ const LogosPlataformas = () => {
   )
 }
 
-export default LogosPlataformas
+export default Plataformas

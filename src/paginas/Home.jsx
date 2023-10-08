@@ -5,7 +5,7 @@ import Inicio from '../componentes/Inicio';
 import NavBar from '../layouts/NavBar';
 import Portfolio from '../componentes/Portfolio';
 import Servicios from '../componentes/Servicios';
-import LogosPlataformas from '../componentes/LogosPlataformas';
+import Plataformas from '../componentes/Plataformas';
 
 const Home = () => {
   return (
@@ -16,7 +16,7 @@ const Home = () => {
       <Servicios />
       <Portfolio />
       <Contacto />
-      <LogosPlataformas />
+      <Plataformas />
       <Footer />
     </div>
   )

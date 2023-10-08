@@ -1,3 +1,4 @@
+import '../estilos/servicios.css';
 import { Link } from 'react-router-dom';
 const Servicios = () => {
   return (

@@ -23,13 +23,13 @@ const ExpGabrielGuardiola = () => {
           <aside className="marca-proyecto">
             <article className="marca">
               <h3>GRABRIEL GUARDIOLA</h3>
-              <p> Experto en negocios inmobiliarios con más de 5 años de experiencia. Es reconocido como agente elite en exp-spain, una empresa líder en el sector. A través de sus redes sociales y su página web, él ofrece sus servicios profesionales para contactar con personas que quieren vender su propiedad y ofrecerles una solución rápida y eficaz.</p>
+              <p> Experto en negocios inmobiliarios con más de 5 años de experiencia. Es reconocido como agente elite en Exp-Spain, una empresa líder en el sector. A través de sus redes sociales y su página web, él ofrece sus servicios profesionales para contactar con personas que quieren vender su propiedad y ofrecerles una solución rápida y eficaz.</p>
             </article>
             <article className="proyecto">
                 <h3>PROYECTO</h3>
                   <p>Diseño de posteos. <br />
-                  Creación de pagina web. <br />
-                  Edición de imagenes y videos.<br/>
+                  Creación de página web. <br />
+                  Edición de imágenes y videos.<br/>
                   Creación de presentaciones corporativa.</p>
             </article>
           </aside>
@@ -54,14 +54,14 @@ const ExpGabrielGuardiola = () => {
               <div className="carousel-item">
                 <img src={pagina} className="d-block" alt="pagina web"/>
                 <div className="carousel-caption d-none d-md-block">
-                  <h5>Creación de pagina web</h5>
+                  <h5>Creación de página web</h5>
                   <p>Con la plataforma Jimdo, creamos su sitio donde explica su trabajo y muestra propiedades en venta.</p>
                 </div>
               </div>
               <div className="carousel-item">
                 <img src={edicion} className="d-block" alt="edicion photoshop"/>
                 <div className="carousel-caption d-none d-md-block">
-                  <h5>Edición de imagenes</h5>
+                  <h5>Edición de imágenes</h5>
                   <p>Resaltamos los aspectos esenciales de las propiedades.</p>
                 </div>
               </div>
@@ -75,8 +75,8 @@ const ExpGabrielGuardiola = () => {
               <div className="carousel-item">
                 <img src={presentacion} className="d-block" alt="presentacion comercial"/>
                 <div className="carousel-caption d-none d-md-block">
-                  <h5>Creación de presentaciónes comerciales</h5>
-                  <p>Datos personales, modo de trabajo, herramientas y mas.</p>
+                  <h5>Creación de presentaciones comerciales</h5>
+                  <p>Datos personales, modo de trabajo, herramientas y más.</p>
                 </div>
               </div>
             </div>

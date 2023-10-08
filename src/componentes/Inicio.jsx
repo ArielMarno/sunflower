@@ -1,4 +1,4 @@
-
+import '../estilos/inicio.css';
 const Inicio = () => {
   return (
     <div>
