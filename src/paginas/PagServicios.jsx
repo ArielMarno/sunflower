@@ -20,7 +20,7 @@ const PagServicios = () => {
               <div className="card-body">
                 <h5 className="card-title">Community Manager</h5>
                 <p className="card-text">Te ayudamos a crear y mantener una comunidad en línea comprometida con tu marca. Nos aseguramos de que tus perfiles sociales estén actualizados y de que tus publicaciones sean atractivas y relevantes para tu audiencia.</p>
-                <a href="https://forms.gle/8zw6qPHkStFnA4VG9" type='buttom' className='servicios-btn'>CONSULTAR</a>
+                <a href="https://forms.gle/8zw6qPHkStFnA4VG9" target="_blank" rel="noopener noreferrer" type='buttom' className='servicios-btn'>CONSULTAR</a>
               </div>
             </div>
            </div>
@@ -35,7 +35,7 @@ const PagServicios = () => {
               <div className="card-body">
                 <h5 className="card-title">Diseño Gráfico</h5>
                 <p className="card-text">Creamos tu identidad visual única y coherente para tu marca. Desde el diseño de logotipos hasta la creación de gráficos personalizados. Hacemos realidad tu visión.</p>
-                <a href="https://forms.gle/8zw6qPHkStFnA4VG9" type='buttom' className='servicios-btn'>CONSULTAR</a>
+                <a href="https://forms.gle/8zw6qPHkStFnA4VG9" target="_blank" rel="noopener noreferrer" type='buttom' className='servicios-btn'>CONSULTAR</a>
               </div>
             </div>
            </div>
@@ -50,7 +50,7 @@ const PagServicios = () => {
               <div className="card-body">
                 <h5 className="card-title">e-Commerce</h5>
                 <p className="card-text">Creamos tu tienda en línea utilizando plataformas como Tiendanube, Empretienda y Tiendup. Nos aseguramos de que sea fácil de usar y que tus productos destaquen.</p>
-                <a href="https://forms.gle/8zw6qPHkStFnA4VG9" type='buttom' className='servicios-btn'>CONSULTAR</a>
+                <a href="https://forms.gle/8zw6qPHkStFnA4VG9" target="_blank" rel="noopener noreferrer" type='buttom' className='servicios-btn'>CONSULTAR</a>
               </div>
             </div>
            </div>
@@ -65,7 +65,7 @@ const PagServicios = () => {
               <div className="card-body">
                 <h5 className="card-title">Edición Multimedia</h5>
                 <p className="card-text">¿Necesitas crear contenido multimedia para tu sitio web o redes sociales? Editamos tus videos y fotos para lograr un producto atractivo y profesional que atraiga la atención de tu audiencia.</p>
-                <a href="https://forms.gle/8zw6qPHkStFnA4VG9" type='buttom' className='servicios-btn'>CONSULTAR</a>
+                <a href="https://forms.gle/8zw6qPHkStFnA4VG9" target="_blank" rel="noopener noreferrer" type='buttom' className='servicios-btn'>CONSULTAR</a>
               </div>
             </div>
            </div>
@@ -80,7 +80,7 @@ const PagServicios = () => {
               <div className="card-body">
                 <h5 className="card-title">Desarrollo Web</h5>
                 <p className="card-text">Desarrollamos de forma completa y profesional tu sitio Web a la medida de tus necesidades con el objetivo de que sea atractivo, fácil de usar y funcional para sus visitantes.</p>
-                <a href="https://forms.gle/8zw6qPHkStFnA4VG9" type='buttom' className='servicios-btn'>CONSULTAR</a>
+                <a href="https://forms.gle/8zw6qPHkStFnA4VG9" target="_blank" rel="noopener noreferrer" type='buttom' className='servicios-btn'>CONSULTAR</a>
               </div>
             </div>
            </div>
@@ -95,7 +95,7 @@ const PagServicios = () => {
               <div className="card-body">
                 <h5 className="card-title">Publicidad Online</h5>
                 <p className="card-text">Promocionamos tus productos o servicios a través de redes sociales, motores de busqueda u otros sitios web con el objetivo de aumentar la visibilidad de tu marca y llegar a tus potenciales clientes.</p>
-                <a href="https://forms.gle/8zw6qPHkStFnA4VG9" type='buttom' className='servicios-btn'>CONSULTAR</a>
+                <a href="https://forms.gle/8zw6qPHkStFnA4VG9" target="_blank" rel="noopener noreferrer" type='buttom' className='servicios-btn'>CONSULTAR</a>
               </div>
             </div>
            </div>
@@ -110,7 +110,7 @@ const PagServicios = () => {
               <div className="card-body">
                 <h5 className="card-title">Mercado Libre</h5>
                 <p className="card-text">¿Querés vender tus productos en MercadoLibre? Te ofrecemos una atención personalizada para que tus publicaciones sean más visibles y atractivas. Además, te ayudamos a optimizar tus ventas y mejorar la experiencia del cliente.</p>
-                <a href="https://forms.gle/8zw6qPHkStFnA4VG9" type='buttom' className='servicios-btn'>CONSULTAR</a>
+                <a href="https://forms.gle/8zw6qPHkStFnA4VG9" target="_blank" rel="noopener noreferrer" type='buttom' className='servicios-btn'>CONSULTAR</a>
               </div>
             </div>
            </div>

@@ -8,7 +8,7 @@ const Caracteristicas = () => {
     <div className='caracteristicas'>
         <div className='box'>
             <img src={versatilidad} alt="icono versatilidad" />
-            <h2 className='titulo'>Verstilidad</h2>
+            <h2 className='titulo'>Versatilidad</h2>
             <p className='descripcion'>Contamos con la capacidad de adaptarnos a las necesidades y requerimientos de nuestros clientes.</p>
         </div>
         <div className='box'>
