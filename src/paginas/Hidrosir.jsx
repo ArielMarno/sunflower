@@ -93,4 +93,4 @@ const Hidrosir = () => {
   )
 }
 
-export default Hidrosir
+export default Hidrosir;

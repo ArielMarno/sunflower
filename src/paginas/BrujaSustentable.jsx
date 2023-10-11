@@ -84,4 +84,4 @@ const BrujaSustentable = () => {
   )
 }
 
-export default BrujaSustentable
+export default BrujaSustentable;

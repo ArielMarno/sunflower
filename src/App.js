@@ -1,26 +1,26 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from './paginas/Home';
 import PagServicios from './paginas/PagServicios';
 import BrujaSustentable from './paginas/BrujaSustentable';
 import Hidrosir from './paginas/Hidrosir';
 import ScrollToTop from './componentes/ScrollToTop';
 import Muebles44 from './paginas/Muebles44';
-import ExpGabrielGuardiola from './paginas/ExpGabrielGuardiola';
+import GabrielGuardiola from './paginas/GabrielGuardiola';
 
 function App() {
   return (
-    <Router className="App">
+    <HashRouter className="App">
       <ScrollToTop />
       <Routes>
         <Route path='/' element={<Home />}/>
-        <Route path='Servicios' element={<PagServicios />} />
-        <Route path='BrujaSustentable' element={<BrujaSustentable />} />
-        <Route path='Hidrosir' element={<Hidrosir />} />
-        <Route path='Muebles44' element={<Muebles44 />} />
-        <Route path='ExpGabrielGuardiola' element={<ExpGabrielGuardiola />} />
+        <Route path='servicios' element={<PagServicios />} />
+        <Route path='brujasustentable' element={<BrujaSustentable />} />
+        <Route path='hidrosir' element={<Hidrosir />} />
+        <Route path='muebles44' element={<Muebles44 />} />
+        <Route path='gabrielguardiola' element={<GabrielGuardiola />} />
       </Routes>
-    </Router>
+    </HashRouter>
   );
 }
 

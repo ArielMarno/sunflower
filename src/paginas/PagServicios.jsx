@@ -1,5 +1,4 @@
 import '../estilos/pagservicios.css';
-import React from 'react'
 import NavBar from "../layouts/NavBar";
 import Footer from "../layouts/Footer";
 
@@ -122,4 +121,4 @@ const PagServicios = () => {
   )
 }
 
-export default PagServicios
+export default PagServicios;

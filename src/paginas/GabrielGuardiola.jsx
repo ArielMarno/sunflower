@@ -9,7 +9,7 @@ import edicion from "../assets/ExpGabrielGuardiola/gg-edicion.png";
 
 
 
-const ExpGabrielGuardiola = () => {
+const GabrielGuardiola = () => {
   return (
     <div className="exp-gabrielguardiola">
         <NavBar />
@@ -96,4 +96,4 @@ const ExpGabrielGuardiola = () => {
   )
 }
 
-export default ExpGabrielGuardiola
+export default GabrielGuardiola;
