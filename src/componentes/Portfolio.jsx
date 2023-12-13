@@ -35,7 +35,7 @@ const Portfolio = () => {
             <div className="box-portafolio">
                 <img src={guardiola} alt="logo gabriel guardiola" />
                 <div className="capa">
-                    <Link to="ExpGabrielGuardiola">VER PORTFOLIO</Link>
+                    <Link to="GabrielGuardiola">VER PORTFOLIO</Link>
                 </div>
                 
             </div>
